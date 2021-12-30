@@ -1,0 +1,35 @@
+{
+  "name": "node-clingo",
+  "version": "0.1.0",
+  "description": "A Node.js wrapper for Python Clingo API",
+  "main": "build/node-clingo.js",
+  "repository": "https://github.com/see-mike-out/node-clingo.git",
+  "author": "Hyeok Kim (http://hyeok.me)",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "node ./build/node-clingo.js",
+    "test": "ts-node ./test/main.test.ts",
+    "dev": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.5",
+    "promisify": "^0.0.3",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "python-shell": "^3.0.1",
+    "rollup": "^2.62.0",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "ts-node": "^10.4.0",
+    "tslib": "^2.3.1"
+  }
+}

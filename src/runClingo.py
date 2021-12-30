@@ -1,9 +1,6 @@
 import clingo
 import sys
-import sys
-from typing import List, Dict
 import os
-import sys
 import json
 
 

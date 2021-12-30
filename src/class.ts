@@ -2,7 +2,6 @@ import { PythonShell, Options } from 'python-shell';
 import { NcConfig } from './configObj';
 import { DefaultNcConfig } from './configDefault';
 import { compileConfig } from './compileConfig';
-// import { cb_func } from 'promisify';
 
 // from: https://decipher.dev/30-seconds-of-typescript/docs/promisify/
 const promisify = (func: Function) => (...args: any[]) =>

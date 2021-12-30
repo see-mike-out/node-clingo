@@ -13,7 +13,7 @@ export default {
     file: 'build/node-clingo.js',
     sourcemap: true,
     format: 'umd',
-    name: 'nodeClingo'
+    name: 'node-clingo'
   },
   plugins: [
     builtins(),

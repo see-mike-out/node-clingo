@@ -23,7 +23,6 @@ $ % python3 -m pip install --user --upgrade clingo
 ### Installing the pacakge
 ```shell
 yarn add https://github.com/see-mike-out/node-clingo.git
-yarn build
 ```
 
 ## License
